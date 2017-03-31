@@ -1,9 +1,15 @@
 * {
   font-family: monospace;
-  background-color: rgba(142, 92, 147, 0.31);
+}
+body{
+
+  background-color: rgba(132, 74, 138, 0.17);
 }
 
-
+h1{
+  margin-left: 21%;
+    font-size: 28px;
+}
 [type="submit"] {
   color: white;
   background-color: #957676;
@@ -11,13 +17,14 @@
   border-color: rgb(118, 92, 92);
   border-style: outset;
   width: 28%;
-  margin: 21px 3%;
+  margin: 21px 35%;
 }
 
-#sign-up{
+#log-in{
   border: 1px dashed;
   width: 350px;
-  margin: 49px;
+  margin: 210px 420px;
+  background-color: rgba(160, 114, 166,0.31);
 }
 
 
@@ -28,6 +35,6 @@
   box-shadow: 7px 4px 15px 3px #895b5b;
   background-color: rgb(255, 255, 255);
   display: block;
-  margin: 14% 18% 0%;
+  margin: 7% 18% 0%;
 
 }
