@@ -1,0 +1,38 @@
+*{
+  font-family: fantasy;
+}
+.post-share {
+  border-style: inset;
+  width: 600px;
+  background-color: rgba(216, 210, 210, 0.31);
+  margin-left: 400px;
+  margin-top: 70px;
+}
+
+.content{
+  margin: 7%;
+  width: 80%;
+}
+
+#area {
+  width: 90%;
+  padding: 14px;
+}
+
+.post-content {
+  visibility: hidden;
+  background-color: rgba(216, 210, 210, 0.31);
+  width: 600px;
+  border-style: inset;
+  margin-left: 400px;
+  margin-top: 7px;
+}
+
+.active {
+  visibility: visible;
+}
+.box-select {
+  margin-left: 70%;
+
+
+}
