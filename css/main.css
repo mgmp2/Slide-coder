@@ -1,0 +1,33 @@
+* {
+  font-family: monospace;
+  background-color: rgba(142, 92, 147, 0.31);
+}
+
+
+[type="submit"] {
+  color: white;
+  background-color: #957676;
+  border-radius: 7px;
+  border-color: rgb(118, 92, 92);
+  border-style: outset;
+  width: 28%;
+  margin: 21px 3%;
+}
+
+#sign-up{
+  border: 1px dashed;
+  width: 350px;
+  margin: 49px;
+}
+
+
+[type="text"] {
+  width: 63%;
+  height: 28px;
+  border: 1px inset;
+  box-shadow: 7px 4px 15px 3px #895b5b;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin: 14% 18% 0%;
+
+}
