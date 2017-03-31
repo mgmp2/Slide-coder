@@ -28,7 +28,7 @@ h1{
 }
 
 
-[type="text"] {
+[type="text"], [type="password"]{
   width: 63%;
   height: 28px;
   border: 1px inset;
@@ -36,5 +36,6 @@ h1{
   background-color: rgb(255, 255, 255);
   display: block;
   margin: 7% 18% 0%;
+  padding-left: 14px;
 
 }
