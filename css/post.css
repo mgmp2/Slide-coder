@@ -10,6 +10,13 @@ body {
   margin: 0 auto;
   width: 80%;
 }
+.footer {
+  padding: 1em;
+  color: white;
+  text-align: right;
+  font-family: monospace;
+
+}
 
 section > span, span> input{
   margin-left: 7%;
