@@ -97,9 +97,9 @@ p {
   margin: 0 auto;
   text-align: right;
   text-decoration: underline;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-family: fantasy;
-  color: rgba(14, 186, 124, 0.69);
+  color: rgba(12, 115, 78, 0.69);;
 }
 
 h2 {
