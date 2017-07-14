@@ -1,21 +1,20 @@
-*{
-  font-size: 22px;
+* {
+    font-size: 21px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+
 }
 body {
   background-color: rgba(251, 251, 251, 0.6);
   background-image: url("https://userscontent2.emaze.com/images/571115fe-5641-4c48-be13-5170f5b7bab6/2c20445d535e3130ce8ddea9409bc9f2.jpg");
+  background-size: cover;
 
 }
 .box-content {
   margin: 0 auto;
   width: 80%;
-}
-.footer {
-  padding: 1em;
-  color: white;
-  text-align: right;
-  font-family: monospace;
-
 }
 
 section > span, span> input{
@@ -26,9 +25,7 @@ section > span, span> input{
 input[type="text"] {
     border-style: none;
     background-color: rgba(219, 221, 252, 0.55);
-
 }
-
 
 section {
   width: 90%;
@@ -47,24 +44,27 @@ section {
   background-color: rgba(216, 210, 210, 0.31);
   margin: 2% 7% auto;
   width: 80%;
+  height: 22vh;
   border: none;
 }
 
 #area {
-  width: 90%;
-  padding: 14px;
-  background-color: rgba(219, 221, 252, 0.55);
+    resize: none;
+    width: 90%;
+    border: none;
+    padding: 14px;
+    margin: 14px 7px 2px 9px;
+    background-color: rgba(219, 221, 252, 0.55);
 }
 
 
 .button {
-  margin-left: 80%;
+  margin-left: 43vw;
   display: inline-block;
-  padding: 14px 21px;
+  padding: 7px 21px;
   font-size: 21px;
   cursor: pointer;
   text-align: center;
-  outline: none;
   color: #fff;
   background-color: #4CAF50;
   border: none;
@@ -152,3 +152,52 @@ h2 {
                  0 9px 0 #CCC,
                  0 30px 30px rgba(0, 0, 0, .3);
   }
+}
+
+.footer {
+    padding: 1em;
+    color: black;
+    font-weight: 700;
+    text-align: right;
+    font-family: monospace;
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 6vw;
+    }
+    .content {
+        width: 60vw;
+        height: 23vh;
+    }
+    #user {
+        width: 32vw;
+    }
+    #user::placeholder {
+        font-size: 18px;
+    }
+    .button {
+        margin-left: 35vw;
+    }
+}
+@media (max-width: 412px) {
+    * {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 10vw;
+        line-height: 1.5;
+    }
+    section {
+        width: 100%;
+        margin: 20px auto;
+    }
+    input[type="text"] {
+        width: 60vw;
+    }
+    #user::placeholder {
+        font-size: 13px;
+    }
+    .button {
+        margin-left: 28vw;
+    }
+}

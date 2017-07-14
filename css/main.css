@@ -1,41 +1,71 @@
 * {
-  font-family: monospace;
-}
-body{
-
-  background-color: rgba(132, 74, 138, 0.17);
+    font-family: monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
-  margin-left: 21%;
+    text-align: center;
     font-size: 28px;
+    color: #fff;
 }
 [type="submit"] {
-  color: white;
-  background-color: #957676;
-  border-radius: 7px;
-  border-color: rgb(118, 92, 92);
-  border-style: outset;
-  width: 28%;
-  margin: 21px 35%;
+    color: white;
+    background-color: #494442;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    width: 12vw;
+    margin: 21px 5.6vw;
+    padding: 10px 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
+[type="submit"]:focus {
+    outline: none;
+}
+[type="submit"]:hover {
+    opacity: 0.8;
+}
 #log-in{
-  border: 1px dashed;
-  width: 350px;
-  margin: 210px 420px;
-  background-color: rgba(160, 114, 166,0.31);
+    border: 7px solid #919693;
+    width: 350px;
+    margin: 25vh auto;
+    background-color: rgba(72, 105, 61, 0.31);
+    padding: 14px 7px;
 }
 
 
-[type="text"], [type="password"]{
-  width: 63%;
-  height: 28px;
-  border: 1px inset;
-  box-shadow: 7px 4px 15px 3px #895b5b;
-  background-color: rgb(255, 255, 255);
-  display: block;
-  margin: 7% 18% 0%;
-  padding-left: 14px;
+#input-email,
+#input-pass{
+    width: 63%;
+    height: 28px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: 7% 18% 0%;
+    padding-left: 14px;
+}
+#input-email:focus,
+#input-pass:focus {
+    outline: none;
+}
 
+#input-email::placeholder,
+#input-pass::placeholder {
+    color: rgb(167, 165, 166);
+}
+@media (max-width: 768px) {
+    [type="submit"] {
+        width: 22vw;
+        margin: 21px 10vw;
+    }
+}
+@media (max-width: 412px) {
+    #log-in{
+        width: 81vw;
+    }
+    [type="submit"] {
+        width: 35vw;
+        margin: 23px 20vw;
+    }
 }

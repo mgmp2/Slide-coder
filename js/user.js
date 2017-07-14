@@ -9,7 +9,7 @@ window.addEventListener('load', function (){
 });
 
 var usuario_LS;
-user= [{nombre: "miriam", apellido: "mendoza", correo: "miriam@gmail.com", password: "miriam123"}]
+user= [{nombre: "miriam", apellido: "mendoza", correo: "admin", password: "123456"}]
 if(!localStorage.getItem('usuario')){
   localStorage.setItem('usuario',JSON.stringify(user));
   usuario_LS = JSON.parse(localStorage.getItem('usuario'));
